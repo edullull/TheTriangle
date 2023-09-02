@@ -1,29 +1,45 @@
 .bg-light-gray {
-    background-color: #9b8d64; /* Color gris claro */
-  }
+  background-color: #9b8d64; /* Color gris claro */
+}
 
 img{
-    width: 150px;
+  width: 150px;
 }
 
 #mc_embed_signup {
-  background: #9b8d64; /* Color de fondo gris */
-  text-align: center; /* Centrar el contenido */
-  padding: 20px; /* Añadir espacio alrededor del formulario */
-  font: 14px Helvetica, Arial, sans-serif;
-  width: 600px;
-  margin: 0 auto; /* Centrar el formulario horizontalmente */
+background: #9b8d64; /* Color de fondo gris */
+text-align: center; /* Centrar el contenido */
+padding: 20px; /* Añadir espacio alrededor del formulario */
+font: 14px Helvetica, Arial, sans-serif;
+width: 600px;
+margin: 0 auto; /* Centrar el formulario horizontalmente */
 }
 
 /* Espacio vertical entre el nombre y el correo electrónico */
 .mc-field-group {
-  margin-bottom: 9px;
+margin-bottom: 9px;
 }
 
 /* Estilo para alinear y centrar los campos del formulario */
 .mc-field-group input {
-  width: 70%; /* Ancho del 70% */
-  display: block; /* Muestra cada campo en una línea separada */
-  padding: 5px; /* Espacio interno de 5px */
-  margin: 0 auto 10px; /* Centrar horizontalmente y agregar margen inferior de 10px */
+width: 70%; /* Ancho del 70% */
+display: block; /* Muestra cada campo en una línea separada */
+padding: 5px; /* Espacio interno de 5px */
+margin: 0 auto 10px; /* Centrar horizontalmente y agregar margen inferior de 10px */
+}
+
+@media screen and (max-width: 768px) {
+  /* Modifica los estilos para pantallas más pequeñas aquí */
+  .mc-field-group input {
+      font-size: 14px; /* Cambia el tamaño de fuente en pantallas pequeñas si es necesario */
+  }
+  #mc_embed_signup {
+    background: #9b8d64; /* Color de fondo gris */
+    text-align: center; /* Centrar el contenido */
+    padding: 20px; /* Añadir espacio alrededor del formulario */
+    font: 14px Helvetica, Arial, sans-serif;
+    width: 300px;
+    margin: 0 auto; /* Centrar el formulario horizontalmente */
+    }
+
 }
