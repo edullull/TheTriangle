@@ -6,6 +6,24 @@ img{
     width: 150px;
 }
 
-.mb-3{
-  text-align: center;
+#mc_embed_signup {
+  background: #9b8d64; /* Color de fondo gris */
+  text-align: center; /* Centrar el contenido */
+  padding: 20px; /* Añadir espacio alrededor del formulario */
+  font: 14px Helvetica, Arial, sans-serif;
+  width: 600px;
+  margin: 0 auto; /* Centrar el formulario horizontalmente */
+}
+
+/* Espacio vertical entre el nombre y el correo electrónico */
+.mc-field-group {
+  margin-bottom: 9px;
+}
+
+/* Estilo para alinear y centrar los campos del formulario */
+.mc-field-group input {
+  width: 70%; /* Ancho del 70% */
+  display: block; /* Muestra cada campo en una línea separada */
+  padding: 5px; /* Espacio interno de 5px */
+  margin: 0 auto 10px; /* Centrar horizontalmente y agregar margen inferior de 10px */
 }
