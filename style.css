@@ -8,6 +8,9 @@ img{
 h2{
   text-align: center;
 }
+.container-sm{
+  font-size: 18px;
+}
 
 #mc_embed_signup {
 background: #9b8d64; /* Color de fondo gris */
@@ -16,6 +19,7 @@ padding: 10px; /* Añadir espacio alrededor del formulario */
 font: 14px Helvetica, Arial, sans-serif;
 width: 600px;
 margin: 0 auto; /* Centrar el formulario horizontalmente */
+
 }
 
 /* Espacio vertical entre el nombre y el correo electrónico */
@@ -29,6 +33,12 @@ width: 70%; /* Ancho del 70% */
 display: block; /* Muestra cada campo en una línea separada */
 padding: 5px; /* Espacio interno de 5px */
 margin: 7px auto 10px; /* Centrar horizontalmente y agregar margen inferior de 10px */
+}
+
+@media (min-width: 992px) {
+  .custom-container {
+    max-width: 800px;
+  }
 }
 
 @media screen and (max-width: 768px) {
