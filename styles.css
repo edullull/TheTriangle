@@ -20,6 +20,10 @@ header{
     margin: 0 auto;
     font-size: 20px;
 }
+#mc_embed_signup{
+    text-align: center;
+}
+
 
 @media (max-width: 768px) {
     .contenedor {
