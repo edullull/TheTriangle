@@ -1,0 +1,56 @@
+body{
+    background-color: #9b8d64;
+}
+
+img{
+    max-width: 100% ;
+    width: 230px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+header{
+    text-align: center;
+    height: 190px;
+}
+
+.contenedor{
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    .contenedor {
+        padding: 10px;
+        font-size: 20px;
+        text-align: center; /* Centra el texto */
+        word-wrap: break-word; /* Permite que las palabras se rompan en varias líneas */
+    }
+
+    img {
+        max-width: 100%; /* Hacer que la imagen sea responsiva */
+        height: auto;
+        display: block;
+        margin: 0 auto; /* Centra la imagen horizontalmente */
+    }
+  }
+
+  @media (max-width: 636px) and (max-height: 962px) {
+    /* Aplica aquí los cambios necesarios para este tamaño de pantalla */
+    .contenedor {
+        padding: 15px 0 15px 0;
+        font-size: 20px;
+        text-align: center; /* Centra el texto */
+        word-wrap: break-word; 
+        width: 100%;
+    }
+
+    img {
+        max-width: 100%; /* Hacer que la imagen sea responsiva */
+        height: auto;
+        display: block;
+        margin: 0 auto; /* Centra la imagen horizontalmente */
+    }
+  }
